@@ -1,0 +1,15 @@
+{
+  "name": "dmi-shared-configs-test",
+  "version": "1.0.0",
+  "description": "Shared ESLint config",
+  "author": "DMI",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "publish-eslint-config": "npm publish --workspace @acbrinesdminc/react-typescript-eslint-config",
+    "publish-prettier-config": "npm publish --workspace @acbrinesdminc/prettier-config",
+    "publish-typescript-config": "npm publish --workspace @acbrinesdminc/typescript-config"
+  }
+}

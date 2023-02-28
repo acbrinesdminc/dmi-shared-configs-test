@@ -1,0 +1,74 @@
+{
+  "name": "@acbrinesdminc/react-typescript-eslint-config",
+  "version": "1.0.0",
+  "description": "Shared React and TypeScript ESLint config",
+  "author": "DMI",
+  "license": "MIT",
+  "main": "./eslint-config.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acbrinesdminc/dmi-shared-configs-test"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "publish-manual": "npm publish"
+  },
+  "peerDependencies": {
+    "eslint": "8.34.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-config-standard": "17.0.0",
+    "eslint-config-standard-with-typescript": "34.0.0",
+    "eslint-import-resolver-typescript": "3.5.3",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-n": "15.6.1",
+    "eslint-plugin-promise": "6.0.0",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "@typescript-eslint/eslint-plugin": "5.53.0"
+  },
+  "peerDependenciesMeta": {
+    "eslint": {
+      "optional": false
+    },
+    "eslint-config-airbnb": {
+      "optional": false
+    },
+    "eslint-config-prettier": {
+      "optional": false
+    },
+    "eslint-config-standard": {
+      "optional": false
+    },
+    "eslint-config-standard-with-typescript": {
+      "optional": false
+    },
+    "eslint-import-resolver-typescript": {
+      "optional": false
+    },
+    "eslint-plugin-import": {
+      "optional": false
+    },
+    "eslint-plugin-jsx-a11y": {
+      "optional": false
+    },
+    "eslint-plugin-n": {
+      "optional": false
+    },
+    "eslint-plugin-promise": {
+      "optional": false
+    },
+    "eslint-plugin-react": {
+      "optional": false
+    },
+    "eslint-plugin-react-hooks": {
+      "optional": false
+    },
+    "@typescript-eslint/eslint-plugin": {
+      "optional": false
+    }
+  }
+}

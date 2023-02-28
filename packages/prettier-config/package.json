@@ -1,0 +1,21 @@
+{
+  "name": "@acbrinesdminc/prettier-config",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Sebastian Weber",
+  "description": "shared Prettier config",
+  "main": "./prettier-config.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acbrinesdminc/dmi-shared-configs-test"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "publish-manual": "npm publish"
+  },
+  "peerDependencies": {
+    "prettier": "2.8.4"
+  }
+}
